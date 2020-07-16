@@ -17,8 +17,6 @@ public class Decompressing {
                 if (!file.exists()){
                     file.mkdirs();
                     file.createNewFile();
-                }else {
-
                 }
                 zipInputStream.closeEntry();
                 System.out.println("解压成功");
